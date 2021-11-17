@@ -6,7 +6,7 @@
 
   <groupId>org.wildfly.channels</groupId>
   <artifactId>wildfly-24</artifactId>
-  <version>24.0.1.Final-00000-SNAPSHOT</version>
+  <version>24.0.1.Final-00001-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Channel for WildFly 24</name>
