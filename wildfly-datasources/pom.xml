@@ -9,7 +9,7 @@
   <version>1.0.0.Final-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>Channel for WildFly 24</name>
+  <name>Channel for WildFly Datasource and Driver Feature Pack</name>
 
   <properties>
     <version.build-helper-maven-plugin>3.0.0</version.build-helper-maven-plugin>
@@ -32,6 +32,7 @@
               <artifacts>
                 <artifact>
                   <file>${project.basedir}/src/main/resources/channel.yaml</file>
+                  <classifier>channel</classifier>
                   <type>yaml</type>
                 </artifact>
               </artifacts>

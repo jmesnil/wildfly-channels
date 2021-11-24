@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.wildfly.channels</groupId>
-  <artifactId>wildfly-24</artifactId>
-  <version>24.0.1.Final-00001-SNAPSHOT</version>
+  <artifactId>wildfly-26</artifactId>
+  <version>26.0.0.Beta1-00001-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>Channel for WildFly 24</name>
+  <name>Channel for WildFly 26</name>
 
   <properties>
     <version.build-helper-maven-plugin>3.0.0</version.build-helper-maven-plugin>
@@ -32,6 +32,7 @@
               <artifacts>
                 <artifact>
                   <file>${project.basedir}/src/main/resources/channel.yaml</file>
+                  <classifier>channel</classifier>
                   <type>yaml</type>
                 </artifact>
               </artifacts>

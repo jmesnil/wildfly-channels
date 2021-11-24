@@ -1,0 +1,9 @@
+---
+name: Channel for WildFly 26
+description: |-
+  This channel provides updates WildFly 26 Feature Pack.
+vendor:
+  name: WildFly
+  support: community
+requires:
+  - channel: org.wildfly:wildfly-galleon-pack:26.0.0.Beta1-SNAPSHOT
